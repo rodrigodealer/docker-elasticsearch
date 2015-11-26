@@ -1,0 +1,8 @@
+path:
+  data: /data/data
+  logs: /data/log
+  plugins: /data/plugins
+  work: /data/work
+
+# Version 2.x needs this
+network.bind_host: 0
