@@ -4,5 +4,13 @@ path:
   plugins: /data/plugins
   work: /data/work
 
+cluster:
+  name: elasticsearch-cluster
+
 # Version 2.x needs this
 network.bind_host: 0
+
+#discovery.zen.minimum_master_nodes: 2
+
+#discovery.zen.ping.multicast.enabled: true
+#discovery.zen.ping.unicast.hosts: ["192.168.99.100:9300", "192.168.99.101:9300"]
